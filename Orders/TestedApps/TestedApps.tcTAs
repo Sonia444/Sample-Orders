@@ -7,10 +7,10 @@
 		<child key="{520E41E7-5448-45A5-9E1A-14BA187217AB}">
 			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="C:\Documents\Sample\Orders\TestedApps" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="C:\Documents\Sample\Orders\TestedApps" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="C:\Documents\Sample\Orders\TestedApps" />
-					<param name="Simple" fileName="Orders.exe" filePath="C:\Documents\Sample\Orders\TestedApps\" parameters="" workFolder="C:\Documents\Sample\Orders\TestedApps" />
+					<param name="RunAs" parameters="" workFolder="C:\Sonia\Repo\Sample-Orders\Orders\TestedApps" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Sonia\Repo\Sample-Orders\Orders\TestedApps" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Sonia\Repo\Sample-Orders\Orders\TestedApps" />
+					<param name="Simple" fileName="Orders.exe" filePath="C:\Sonia\Repo\Sample-Orders\Orders\TestedApps\" parameters="" workFolder="C:\Sonia\Repo\Sample-Orders\Orders\TestedApps" />
 				</runModeParams>
 			</config>
 			<testData />

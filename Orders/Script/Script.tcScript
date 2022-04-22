@@ -2,6 +2,5 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<child name="Unit1" key="{EE6EBC25-0277-4E6B-A52E-8FC212FEDC23}" path="Unit1.py" />
-		<child name="Unit2" key="{7F1A85D6-4940-4B61-98D7-96F38EB1EBE3}" path="Unit2.py" />
 	</children>
 </Root>

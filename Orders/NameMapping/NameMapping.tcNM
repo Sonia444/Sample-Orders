@@ -21,7 +21,6 @@
 						<Children>
 							<Child Name="MainForm" Key="{6A79A957-5D19-4E9E-9834-9B1A140446F3}">
 								<Image FileName="-68025048" Left="0" Top="0" Right="608" Bottom="408" />
-								<TypeInfo Item0="{FA99482E-F996-41C9-9548-38AF1F6D949C}" />
 								<Properties>
 									<Property Name="WinFormsControlName">
 										<Value Value="MainForm" />
@@ -30,7 +29,6 @@
 								<Children>
 									<Child Name="OrdersView" Key="{A74B351A-F7E9-4A2C-8E92-B3414BE6F98F}">
 										<Image FileName="-512451016" Left="8" Top="79" Right="600" Bottom="378" />
-										<TypeInfo Item0="{2E7DFCE7-B56A-427D-8239-CDB6583670A9}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
 												<Value Value="OrdersView" />
@@ -142,7 +140,6 @@
 																				<Children>
 																					<Child Name="Name" Key="{7B73B547-569C-48D8-9A12-A2A7973FB821}">
 																						<Image FileName="2040402918" Left="204" Top="240" Right="440" Bottom="262" />
-																						<TypeInfo Item0="{4227B065-16B4-4B21-8ABA-185A4A0CC82E}" />
 																						<Properties>
 																							<Property Name="FrameworkId">
 																								<Value Value="DirectUI" />
@@ -172,7 +169,6 @@
 									</Child>
 									<Child Name="btnOpen" Key="{283ADC2F-2C6D-48F0-8804-9D787EC936A4}">
 										<Image FileName="-1704938230" Left="470" Top="434" Right="558" Bottom="460" />
-										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="Button" />
@@ -202,7 +198,6 @@
 										<Children>
 											<Child Name="Customer" Key="{C34B9724-A0D3-4E4C-9C63-C1B3286A04F2}">
 												<Image FileName="-1428096909" Left="115" Top="194" Right="467" Bottom="214" />
-												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="Customer" />
@@ -211,7 +206,6 @@
 											</Child>
 											<Child Name="Street" Key="{88426948-0759-4CE8-85D2-433166DF1C28}">
 												<Image FileName="-1825033010" Left="115" Top="226" Right="243" Bottom="246" />
-												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="Street" />
@@ -220,7 +214,6 @@
 											</Child>
 											<Child Name="State" Key="{B5E53DEC-2791-4D42-A293-BE397696C80C}">
 												<Image FileName="2007588522" Left="115" Top="258" Right="243" Bottom="278" />
-												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="State" />
@@ -229,7 +222,6 @@
 											</Child>
 											<Child Name="City" Key="{2FB71F65-C1FB-4C20-88CA-2846111AF8C6}">
 												<Image FileName="174558889" Left="339" Top="226" Right="467" Bottom="246" />
-												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="City" />
@@ -238,7 +230,6 @@
 											</Child>
 											<Child Name="Zip" Key="{D1D3194F-4442-4E89-A71B-9B4C7E561BBC}">
 												<Image FileName="1566385071" Left="339" Top="258" Right="467" Bottom="278" />
-												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="Zip" />
@@ -247,7 +238,6 @@
 											</Child>
 											<Child Name="CardNo" Key="{4B91651A-0F60-42FE-842A-B8DFDCDB54F9}">
 												<Image FileName="-1620182440" Left="115" Top="370" Right="467" Bottom="390" />
-												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="CardNo" />
@@ -256,7 +246,6 @@
 											</Child>
 											<Child Name="ProductNames" Key="{9AC710F2-3423-49C3-A2B6-24AD0D22C330}">
 												<Image FileName="-391417264" Left="75" Top="50" Right="467" Bottom="71" />
-												<TypeInfo Item0="{2EC7F895-EB12-4225-96DE-50F580497270}" />
 												<Properties>
 													<Property Name="WinFormsControlName">
 														<Value Value="ProductNames" />
@@ -267,7 +256,6 @@
 									</Child>
 									<Child Name="ButtonOK" Key="{53F9B1E9-5D95-4EA9-B4EB-2BC5217A6BC4}">
 										<Image FileName="191264461" Left="323" Top="442" Right="395" Bottom="466" />
-										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
 												<Value Value="ButtonOK" />
@@ -276,7 +264,6 @@
 									</Child>
 									<Child Name="ButtonCancel" Key="{73A6FC66-BF0F-481E-95A7-36E65930898F}">
 										<Image FileName="-377187195" Left="403" Top="442" Right="475" Bottom="466" />
-										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
 										<Properties>
 											<Property Name="WinFormsControlName">
 												<Value Value="ButtonCancel" />
@@ -298,7 +285,6 @@
 								<Children>
 									<Child Name="btnYes" Key="{7C0B80DC-E261-424E-84CE-3FD243CEC33D}">
 										<Image FileName="2090890366" Left="56" Top="114" Right="131" Bottom="137" />
-										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="Button" />
@@ -340,7 +326,6 @@
 										<Children>
 											<Child Name="FolderView" Key="{93B07BC8-FA0F-45FA-AF63-EDB78D2DF17F}">
 												<Image FileName="871217239" Left="0" Top="0" Right="1366" Bottom="768" />
-												<TypeInfo Item0="{2E7DFCE7-B56A-427D-8239-CDB6583670A9}" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="SysListView32" />
@@ -383,7 +368,6 @@
 												<Children>
 													<Child Name="MSTaskListWClass" Key="{D72FDA3C-5B8E-4B36-958D-BE04D4305DA8}">
 														<Image FileName="1470443394" Left="488" Top="0" Right="1135" Bottom="40" />
-														<TypeInfo Item0="{DF6A5885-D2C5-45CD-936A-E9B34B63DC0E}" />
 														<Properties>
 															<Property Name="WndClass">
 																<Value Value="MSTaskListWClass" />
@@ -470,7 +454,6 @@
 																		<Children>
 																			<Child Name="tvNamespaceTreeControl" Key="{3AAD0BA1-7445-413C-8BA1-EBFEAAC48829}">
 																				<Image FileName="-1404722008" Left="8" Top="97" Right="245" Bottom="552" />
-																				<TypeInfo Item0="{11C5D08E-A0C3-4BE8-A3EF-08F8B57191BF}" />
 																				<Properties>
 																					<Property Name="WndClass">
 																						<Value Value="SysTreeView32" />
@@ -479,6 +462,95 @@
 																						<Value Value="Tree View" />
 																					</Property>
 																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="CtrlNotifySink2" Key="{F6C7D4D7-B8C9-4320-8F6E-19968E430498}">
+																<Image FileName="2143633528" Left="249" Top="97" Right="1374" Bottom="713" />
+																<TypeInfo Item0="{F1651702-36FB-40D7-A211-74CD0A71702A}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="5" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ShellView" Key="{AEDD9CBA-881E-433B-8CE5-8F50C66576B1}">
+																		<Image FileName="2143633528" Left="249" Top="97" Right="1374" Bottom="713" />
+																		<TypeInfo Item0="{F1651702-36FB-40D7-A211-74CD0A71702A}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="SHELLDLL_DefView" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="ShellView" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Items_View" Key="{E638E56C-34E8-4E84-B4E8-CD5F809B696E}">
+																				<Image FileName="2143633528" Left="249" Top="97" Right="1374" Bottom="713" />
+																				<TypeInfo Item0="{D1A278EB-6234-4931-926C-8B236A6B7F03}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItemsView" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Items_View" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="added_tbl" Key="{BBB22C5D-A869-4D82-AD88-BF030984D912}">
+																						<Image FileName="2143633528" Left="263" Top="233" Right="861" Bottom="255" />
+																						<TypeInfo Item0="{032C2832-DCF6-40CD-B09E-626CCAEE9EBC}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="list item" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="added_tbl" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Name_" Key="{4D868BBE-764B-45FA-929A-16A3133D6E22}">
+																								<Image FileName="2143633528" Left="285" Top="233" Right="521" Bottom="255" />
+																								<TypeInfo Item0="{032C2832-DCF6-40CD-B09E-626CCAEE9EBC}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="edit" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Name" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
 																			</Child>
 																		</Children>
 																	</Child>
@@ -556,6 +628,15 @@
 							<Child Name="CtrlNotifySink" Owner="{FB709FE4-1F93-4D5E-8B3F-63BCBB0FDD38}">
 								<Child Name="NamespaceTreeControl" Owner="{BCA7092A-8936-42B9-A4C6-0EE8280588D3}">
 									<Child Name="tvNamespaceTreeControl" Owner="{3AAD0BA1-7445-413C-8BA1-EBFEAAC48829}" />
+								</Child>
+							</Child>
+							<Child Name="CtrlNotifySink2" Owner="{F6C7D4D7-B8C9-4320-8F6E-19968E430498}">
+								<Child Name="ShellView" Owner="{AEDD9CBA-881E-433B-8CE5-8F50C66576B1}">
+									<Child Name="Items_View" Owner="{E638E56C-34E8-4E84-B4E8-CD5F809B696E}">
+										<Child Name="added_tbl" Owner="{BBB22C5D-A869-4D82-AD88-BF030984D912}">
+											<Child Name="Name_" Owner="{4D868BBE-764B-45FA-929A-16A3133D6E22}" />
+										</Child>
+									</Child>
 								</Child>
 							</Child>
 						</Child>

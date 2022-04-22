@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{5587E298-E288-4986-B22E-E636A8E18F5E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{38836C1C-CAC8-4944-AAD3-5E94BF5F6A19}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{6A79A957-5D19-4E9E-9834-9B1A140446F3}">
+								<Image FileName="-68025048" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{FA99482E-F996-41C9-9548-38AF1F6D949C}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="OrdersView" Key="{A74B351A-F7E9-4A2C-8E92-B3414BE6F98F}">
+										<Image FileName="-512451016" Left="8" Top="79" Right="600" Bottom="378" />
+										<TypeInfo Item0="{2E7DFCE7-B56A-427D-8239-CDB6583670A9}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="OrdersView" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOpen" Key="{6C73DD92-AF6E-40EE-A2F8-98A86CCC3F54}">
+								<Image FileName="2040402918" Left="0" Top="0" Right="683" Bottom="480" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Open" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{96255D76-9373-4433-9EFD-D969CB7FB49B}">
+										<Image FileName="2040402918" Left="8" Top="73" Right="675" Bottom="396" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Explorer_Pane" Key="{73DCABFA-498D-46F6-BFEF-3237AD89F16D}">
+												<Image FileName="2040402918" Left="8" Top="73" Right="675" Bottom="396" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Explorer_Pane" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="CtrlNotifySink" Key="{2813F337-E31D-4723-A152-637BDDE36760}">
+														<Image FileName="2040402918" Left="168" Top="104" Right="675" Bottom="396" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ShellView" Key="{58889CBD-8999-45CD-A5CE-0EC01DE52867}" ExtendedFind="True">
+																<Image FileName="2040402918" Left="168" Top="104" Right="675" Bottom="396" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SHELLDLL_DefView" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="ShellView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Items_View" Key="{1B6386AD-C7E2-4EF9-8B9C-A4C2AB494934}">
+																		<Image FileName="2040402918" Left="168" Top="104" Right="675" Bottom="396" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="UIItemsView" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="list" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Items_View" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="added_tbl" Key="{CB1456D4-4A63-403F-8B7B-654B88B4A071}">
+																				<Image FileName="2040402918" Left="182" Top="240" Right="780" Bottom="262" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="list item" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="added_tbl" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Name" Key="{7B73B547-569C-48D8-9A12-A2A7973FB821}">
+																						<Image FileName="2040402918" Left="204" Top="240" Right="440" Bottom="262" />
+																						<TypeInfo Item0="{4227B065-16B4-4B21-8ABA-185A4A0CC82E}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIProperty" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="edit" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Name" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnOpen" Key="{283ADC2F-2C6D-48F0-8804-9D787EC936A4}">
+										<Image FileName="-1704938230" Left="470" Top="434" Right="558" Bottom="460" />
+										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OrderForm" Key="{D7673BB8-FDD9-4D40-A8E7-8E7ED713CCE6}">
+								<Image FileName="-1428096909" Left="0" Top="0" Right="488" Bottom="478" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{ECA3E43A-6AE0-445C-97F0-13227899147A}">
+										<Image FileName="-1428096909" Left="11" Top="34" Right="475" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{C34B9724-A0D3-4E4C-9C63-C1B3286A04F2}">
+												<Image FileName="-1428096909" Left="115" Top="194" Right="467" Bottom="214" />
+												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Street" Key="{88426948-0759-4CE8-85D2-433166DF1C28}">
+												<Image FileName="-1825033010" Left="115" Top="226" Right="243" Bottom="246" />
+												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Street" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="State" Key="{B5E53DEC-2791-4D42-A293-BE397696C80C}">
+												<Image FileName="2007588522" Left="115" Top="258" Right="243" Bottom="278" />
+												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="State" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="City" Key="{2FB71F65-C1FB-4C20-88CA-2846111AF8C6}">
+												<Image FileName="174558889" Left="339" Top="226" Right="467" Bottom="246" />
+												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="City" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Zip" Key="{D1D3194F-4442-4E89-A71B-9B4C7E561BBC}">
+												<Image FileName="1566385071" Left="339" Top="258" Right="467" Bottom="278" />
+												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Zip" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="CardNo" Key="{4B91651A-0F60-42FE-842A-B8DFDCDB54F9}">
+												<Image FileName="-1620182440" Left="115" Top="370" Right="467" Bottom="390" />
+												<TypeInfo Item0="{041D893E-0D85-46E9-A78D-9683A71F8E42}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="CardNo" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="ProductNames" Key="{9AC710F2-3423-49C3-A2B6-24AD0D22C330}">
+												<Image FileName="-391417264" Left="75" Top="50" Right="467" Bottom="71" />
+												<TypeInfo Item0="{2EC7F895-EB12-4225-96DE-50F580497270}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="ProductNames" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{53F9B1E9-5D95-4EA9-B4EB-2BC5217A6BC4}">
+										<Image FileName="191264461" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="ButtonCancel" Key="{73A6FC66-BF0F-481E-95A7-36E65930898F}">
+										<Image FileName="-377187195" Left="403" Top="442" Right="475" Bottom="466" />
+										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonCancel" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgConfirmation" Key="{D213BE07-F40C-4C05-8E58-241C80C89B96}">
+								<Image FileName="2090890366" Left="0" Top="0" Right="233" Bottom="149" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Confirmation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnYes" Key="{7C0B80DC-E261-424E-84CE-3FD243CEC33D}">
+										<Image FileName="2090890366" Left="56" Top="114" Right="131" Bottom="137" />
+										<TypeInfo Item0="{C4DABA23-2A40-43AE-9630-E9DFC0073952}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Yes" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{445DEB52-0E2F-497B-B524-9DE172858557}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{4034A661-F366-425A-89D0-E086830D9BCF}">
+								<Image FileName="871217239" Left="0" Top="0" Right="1366" Bottom="768" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{992FD361-7426-4F64-8F3C-1F828EFA7D47}" ExtendedFind="True">
+										<Image FileName="871217239" Left="0" Top="0" Right="1366" Bottom="768" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{93B07BC8-FA0F-45FA-AF63-EDB78D2DF17F}">
+												<Image FileName="871217239" Left="0" Top="0" Right="1366" Bottom="768" />
+												<TypeInfo Item0="{2E7DFCE7-B56A-427D-8239-CDB6583670A9}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_TrayWnd" Key="{7E775D29-55AC-4D18-8E60-BBC125238460}">
+								<Image FileName="1470443394" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{76FD530E-A508-4834-A49B-1F774E57BA1B}">
+										<Image FileName="1470443394" Left="486" Top="0" Right="1135" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{C59F8A73-0836-4D8A-95C5-DBD5C96FB7EC}">
+												<Image FileName="1470443394" Left="488" Top="0" Right="1135" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{D72FDA3C-5B8E-4B36-958D-BE04D4305DA8}">
+														<Image FileName="1470443394" Left="488" Top="0" Right="1135" Bottom="40" />
+														<TypeInfo Item0="{DF6A5885-D2C5-45CD-936A-E9B34B63DC0E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndCabinetWClass" Key="{29FC1DB6-4848-4CA2-BE9C-457C2F178D40}">
+								<Image FileName="-1404722008" Left="0" Top="0" Right="622" Bottom="583" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ShellTabWindowClass" Key="{78FBF3B6-36DD-4128-AE76-9943B1D0411A}">
+										<Image FileName="-1404722008" Left="8" Top="97" Right="614" Bottom="575" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ShellTabWindowClass" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DUIViewWndClassName" Key="{71614DBA-20F8-44B0-BDA2-D34B5810174B}">
+												<Image FileName="-1404722008" Left="8" Top="97" Right="614" Bottom="575" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DUIViewWndClassName" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Explorer_Pane" Key="{A9F69A97-1FCD-48A7-A8DC-048D3DC8402F}">
+														<Image FileName="-1404722008" Left="8" Top="97" Right="614" Bottom="575" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="HWNDView" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Explorer_Pane" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CtrlNotifySink" Key="{FB709FE4-1F93-4D5E-8B3F-63BCBB0FDD38}">
+																<Image FileName="-1404722008" Left="8" Top="97" Right="245" Bottom="552" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NamespaceTreeControl" Key="{BCA7092A-8936-42B9-A4C6-0EE8280588D3}" ExtendedFind="True">
+																		<Image FileName="-1404722008" Left="8" Top="97" Right="245" Bottom="552" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NamespaceTreeControl" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="Namespace Tree Control" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="tvNamespaceTreeControl" Key="{3AAD0BA1-7445-413C-8BA1-EBFEAAC48829}">
+																				<Image FileName="-1404722008" Left="8" Top="97" Right="245" Bottom="552" />
+																				<TypeInfo Item0="{11C5D08E-A0C3-4BE8-A3EF-08F8B57191BF}" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="SysTreeView32" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="Tree View" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{38836C1C-CAC8-4944-AAD3-5E94BF5F6A19}">
+			<Child Name="MainForm" Owner="{6A79A957-5D19-4E9E-9834-9B1A140446F3}">
+				<Child Name="OrdersView" Owner="{A74B351A-F7E9-4A2C-8E92-B3414BE6F98F}" />
+			</Child>
+			<Child Name="dlgOpen" Owner="{6C73DD92-AF6E-40EE-A2F8-98A86CCC3F54}">
+				<Child Name="DUIViewWndClassName" Owner="{96255D76-9373-4433-9EFD-D969CB7FB49B}">
+					<Child Name="Explorer_Pane" Owner="{73DCABFA-498D-46F6-BFEF-3237AD89F16D}">
+						<Child Name="CtrlNotifySink" Owner="{2813F337-E31D-4723-A152-637BDDE36760}">
+							<Child Name="ShellView" Owner="{58889CBD-8999-45CD-A5CE-0EC01DE52867}">
+								<Child Name="Items_View" Owner="{1B6386AD-C7E2-4EF9-8B9C-A4C2AB494934}">
+									<Child Name="added_tbl" Owner="{CB1456D4-4A63-403F-8B7B-654B88B4A071}">
+										<Child Name="Name" Owner="{7B73B547-569C-48D8-9A12-A2A7973FB821}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="btnOpen" Owner="{283ADC2F-2C6D-48F0-8804-9D787EC936A4}" />
+			</Child>
+			<Child Name="OrderForm" Owner="{D7673BB8-FDD9-4D40-A8E7-8E7ED713CCE6}">
+				<Child Name="Group" Owner="{ECA3E43A-6AE0-445C-97F0-13227899147A}">
+					<Child Name="Customer" Owner="{C34B9724-A0D3-4E4C-9C63-C1B3286A04F2}" />
+					<Child Name="Street" Owner="{88426948-0759-4CE8-85D2-433166DF1C28}" />
+					<Child Name="State" Owner="{B5E53DEC-2791-4D42-A293-BE397696C80C}" />
+					<Child Name="City" Owner="{2FB71F65-C1FB-4C20-88CA-2846111AF8C6}" />
+					<Child Name="Zip" Owner="{D1D3194F-4442-4E89-A71B-9B4C7E561BBC}" />
+					<Child Name="CardNo" Owner="{4B91651A-0F60-42FE-842A-B8DFDCDB54F9}" />
+					<Child Name="ProductNames" Owner="{9AC710F2-3423-49C3-A2B6-24AD0D22C330}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{53F9B1E9-5D95-4EA9-B4EB-2BC5217A6BC4}" />
+				<Child Name="ButtonCancel" Owner="{73A6FC66-BF0F-481E-95A7-36E65930898F}" />
+			</Child>
+			<Child Name="dlgConfirmation" Owner="{D213BE07-F40C-4C05-8E58-241C80C89B96}">
+				<Child Name="btnYes" Owner="{7C0B80DC-E261-424E-84CE-3FD243CEC33D}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{445DEB52-0E2F-497B-B524-9DE172858557}">
+			<Child Name="wndProgman" Owner="{4034A661-F366-425A-89D0-E086830D9BCF}">
+				<Child Name="SHELLDLL_DefView" Owner="{992FD361-7426-4F64-8F3C-1F828EFA7D47}">
+					<Child Name="FolderView" Owner="{93B07BC8-FA0F-45FA-AF63-EDB78D2DF17F}" />
+				</Child>
+			</Child>
+			<Child Name="wndShell_TrayWnd" Owner="{7E775D29-55AC-4D18-8E60-BBC125238460}">
+				<Child Name="ReBarWindow32" Owner="{76FD530E-A508-4834-A49B-1F774E57BA1B}">
+					<Child Name="MSTaskSwWClass" Owner="{C59F8A73-0836-4D8A-95C5-DBD5C96FB7EC}">
+						<Child Name="MSTaskListWClass" Owner="{D72FDA3C-5B8E-4B36-958D-BE04D4305DA8}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndCabinetWClass" Owner="{29FC1DB6-4848-4CA2-BE9C-457C2F178D40}">
+				<Child Name="ShellTabWindowClass" Owner="{78FBF3B6-36DD-4128-AE76-9943B1D0411A}">
+					<Child Name="DUIViewWndClassName" Owner="{71614DBA-20F8-44B0-BDA2-D34B5810174B}">
+						<Child Name="Explorer_Pane" Owner="{A9F69A97-1FCD-48A7-A8DC-048D3DC8402F}">
+							<Child Name="CtrlNotifySink" Owner="{FB709FE4-1F93-4D5E-8B3F-63BCBB0FDD38}">
+								<Child Name="NamespaceTreeControl" Owner="{BCA7092A-8936-42B9-A4C6-0EE8280588D3}">
+									<Child Name="tvNamespaceTreeControl" Owner="{3AAD0BA1-7445-413C-8BA1-EBFEAAC48829}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
